@@ -1,0 +1,178 @@
+Body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:"Montserrat-bold"
+}
+
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+padding: 7% 15% ;
+}
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#title{ background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.#title container-fluid{
+padding: 3% 15% ;
+}
+
+/* navb bar */
+
+.navbar-brand{
+  font-family:"Ubuntu";
+font-size: 2.5rem;
+font-weight: bold;
+}
+.navbar{
+  padding:0 0 4.5rem;
+
+
+}
+.nav-item{
+padding:
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+
+/* color section */
+.colored{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.white-colored{
+  background-color: #fff;
+
+}
+
+/* button navbar */
+.nav-btn{
+  margin:5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-img{
+  width:50%;
+  transform:rotate(25deg);
+position:absolute;
+left: 33%;
+
+
+}
+
+/* features section */
+
+#features{
+padding: 5% 15%;
+position: relative;
+z-index: 1;
+
+}
+.features-cl{
+  padding: 5%;
+  font-family: "Montserrat-light";
+}
+
+.fa{
+  size:4px;
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.fa:hover{
+  color: #ff4c68;
+
+}
+/* testimonial section */
+
+#testimonials{
+
+  font-style: "Montserrat-bold";
+
+
+}
+.testimonial-text{
+  font-size: 3rem;
+  font-family: "Montserrat"
+  line-height:1.5;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testi-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  padding: 0 0 20px;
+}
+.sec-png{
+  width: 18%;
+  padding: 10px;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+}
+.pricing-txt{
+  font-size: 3rem;
+  font-family:"Montserrat"
+  line-height:1.5;
+}
+
+.pricing-col{
+  padding: 2% 3%;
+}
+
+@media (max-width:992px) {
+#title{
+  text-align: center;
+}
+  .title-img{
+    transform:rotate(0);
+  position:static;
+  }
+}
+
+/* footer section */
+
+#cta{
+  padding:7%;
+
+}
+.ert{
+  margin: 8px 7px;
+}
+.btn-foot{
+}
+.fgh{
+  color: #fff;
+  font-size: 50px;
+  font-family: "Montserrat-bold";
+}
+#footer{
+  padding:5%;
+}
+.p-foot{
+  color: #000;
+font-size: 12px;
+}
